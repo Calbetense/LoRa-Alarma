@@ -15,7 +15,7 @@
 /********** Defines ************/
 #define GPIO_ALARMA 22
 
-#define LIMIT_DO    4.5 // mg/L
+#define LIMIT_DO    3.0 // mg/L
 
 /*Defines needed of LoRa Library*/
 #define CONFIG_CS_GPIO      18
@@ -44,3 +44,4 @@ typedef struct
 // LoRa
 void lora_utils_init();
 Data_t lora_utils_receive();
+
